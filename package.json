@@ -1,0 +1,32 @@
+{
+  "name": "vue3-todo",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "serve": "cross-env vite --mode development",
+    "product": "cross-env vite --mode production",
+    "build": "cross-env vite build --mode development",
+    "build:product": "cross-env vite build --mode production",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.5",
+    "axios": "^0.26.1",
+    "bootstrap": "^5.1.3",
+    "path": "^0.12.7",
+    "pinia": "^2.0.13",
+    "vue": "^3.2.25",
+    "vue-query": "^1.22.3",
+    "vue-router": "^4.0.14"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^2.3.1",
+    "cross-env": "^7.0.3",
+    "sass": "^1.50.1",
+    "sass-loader": "^12.6.0",
+    "typescript": "^4.5.4",
+    "vite": "^2.9.5",
+    "vue-tsc": "^0.34.7"
+  }
+}
